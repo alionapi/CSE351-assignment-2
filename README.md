@@ -34,6 +34,12 @@ The proxy acts as an intermediary between clients and remote web servers. Instea
 └── report.pdf         # Implementation report
 ```
 
+## Socket Programming Functions
+
+The implementation relies on the Berkeley Sockets API for network communication. The following reference table summarizes the main socket-related functions used throughout the project.
+
+![Socket Functions Reference](functions.png)
+
 ## Building
 
 Compile the project with:
