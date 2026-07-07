@@ -23,7 +23,6 @@ typedef struct {
     time_t expire_time;
     int is_valid;
 } CacheEntry;
-
 CacheEntry cache_table[MAX_CACHE_ENTRIES];
 int cache_count = 0;
 
