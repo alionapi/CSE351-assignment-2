@@ -70,7 +70,6 @@ int check_cache(const char* url, char** content, size_t* size) {
     }
     return 0;
 }
-
 void save_to_cache(const char* url, const char* content, size_t size, int max_age) {
     char filename[256];
     url_to_filename(url, filename);
