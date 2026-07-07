@@ -45,7 +45,6 @@ void url_to_filename(const char* url, char* filename) {
 
     sprintf(filename, "%s/%lu.cache", CACHE_DIR, hash);
 }
-
 int check_cache(const char* url, char** content, size_t* size) {
     char filename[256];
     url_to_filename(url, filename);
