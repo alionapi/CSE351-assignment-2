@@ -28,7 +28,6 @@ int cache_count = 0;
 void handle_sigchld(int sig) {
     while (waitpid(-1, NULL, WNOHANG) > 0);
 }
-
 void init_cache() {
     struct stat st = { 0 };
     if (stat(CACHE_DIR, &st) == -1) {
