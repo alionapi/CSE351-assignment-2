@@ -12,7 +12,6 @@
 #include <sys/wait.h>
 #include <signal.h>
 
-
 #define BUFFER_SIZE 8192
 #define MAX_CACHE_ENTRIES 100
 #define CACHE_DIR "./cache"
