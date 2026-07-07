@@ -35,7 +35,6 @@ void init_cache() {
     }
     memset(cache_table, 0, sizeof(cache_table));
 }
-
 void url_to_filename(const char* url, char* filename) {
     unsigned long hash = 5381;
     int c;
