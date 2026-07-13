@@ -8,6 +8,8 @@ The proxy acts as an intermediary between clients and web servers, handling requ
 
 ## Proxy Architecture
 
+
+
 The proxy acts as an intermediary between clients and remote web servers. Instead of communicating directly with the destination server, clients send requests to the proxy, which forwards the requests and returns the responses.
 
 ![Proxy Architecture](proxy-architecture.png)
