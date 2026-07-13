@@ -14,6 +14,8 @@ The proxy acts as an intermediary between clients and remote web servers. Instea
 
 ![Proxy Architecture](proxy-architecture.png)
 
+
+
 ## Features
 
 * HTTP/1.0 proxy server
