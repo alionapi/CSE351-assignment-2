@@ -113,6 +113,8 @@ for invalid requests, including:
 
 ## Multiple Client Support
 
+
+
 The proxy supports multiple simultaneous client connections.
 
 Incoming requests are handled concurrently so that one client does not block other active connections.
