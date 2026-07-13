@@ -3,6 +3,7 @@ CSE351: Computer Networks | Fall 2025 | HTTP Web Proxy with Caching
 
 
 
+
 A multiclient HTTP/1.0 web proxy written in C that accepts requests from web clients, forwards them to remote servers, returns responses to clients, and supports HTTP caching.
 
 The proxy acts as an intermediary between clients and web servers, handling request validation, URL parsing, server communication, response forwarding, and cache management.
