@@ -6,8 +6,6 @@ A multiclient HTTP/1.0 web proxy written in C that accepts requests from web cli
 
 The proxy acts as an intermediary between clients and web servers, handling request validation, URL parsing, server communication, response forwarding, and cache management.
 
-
-
 ## Proxy Architecture
 
 
